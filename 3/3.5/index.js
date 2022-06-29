@@ -30,9 +30,6 @@ const getContact = () => {
  return contacts
 }
 
-const updateContact = (payload) => {
-  getContact(payload)
-}
 
 const generateID = () => {
   const maxId = getContact().length > 0
